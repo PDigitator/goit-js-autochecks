@@ -95,7 +95,6 @@
 // Написати функцію, яка буде видаляти з масива усі значення, які приводяться до false, undefined, null, false, '', 0, NaN
 
 // function arrWithoutFalseElements(array, falseArray) {
-
 //   for (let i = 0; i < array.length; i += 1) {
 //     const commonElement = falseArray.includes(array[i]);
 
@@ -110,8 +109,8 @@
 
 // console.log(
 //   arrWithoutFalseElements(
-//     [10, "", 20, false, 0, 37, null, 12, undefined, 54, false, "", 0, NaN, 40],
-//     [false, undefined, null, false, "", 0, NaN]
+//     [10, '', 20, false, 0, 37, null, 12, undefined, 54, false, '', 0, NaN, 40],
+//     [false, undefined, null, false, '', 0, NaN]
 //   )
 // );
 
